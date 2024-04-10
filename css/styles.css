@@ -5,3 +5,11 @@
     text-decoration:double;
     text-decoration-color: cadetblue;
 }
+
+img.headphones
+{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
