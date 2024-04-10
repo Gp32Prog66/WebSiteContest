@@ -13,14 +13,28 @@ img.headphones
     margin-right:auto;
 }
 
+/*Show more feature*/
+.show_more_feature
+{
+    overflow: hidden;
+}
+
 ul
 {
     list-style-type:georgian;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 li
 {
     display: inline; 
+    color:crimson;
+    
+}
+
+h1
+{
+    text-align:center;
 }
