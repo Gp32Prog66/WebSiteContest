@@ -31,8 +31,8 @@ Contest
 <!--Using Unlisted Tag-->
 <ul>
   
-    <button> <a href="index.html"> <li>Home</li> </button> </a>
-    <button> <a href="checkout.html"> <li>Checkout</li> </button> </a>
+    <button> <!--<a href="index.html">--> <li>Home</li> </button> </a>
+    <button> <!--<a href="checkout.html">--> <li>Checkout</li> </button> </a>
     <button><li>Products</li> </button>
     </button>
 
@@ -60,7 +60,7 @@ Contest
 
 
         <tr>
-            <td><input type = "checkbox" id="headphone1" name="headphone1" value ="selection1"> Sony</td>
+            <td><input type = "checkbox" onChange = "displayQuantityAndPrice('quantprice')" id="headphone1" name="headphone1" value ="selection1"> Sony</td>
             <td>WH-10000XM5</td>
             <td>Yes</td>
             <td>Yes</td>
@@ -101,6 +101,10 @@ Contest
             <td>Yes</td>
         </tr>
     </table>
+
+    <!--Shopping Cart Display-->
+    <h2>Shopping Cart</h2>
+    <iframe width="400" height="300" title="Shopping Cart">Shopping Cart</iframe>
     
 
     <h4> Let's Get Your Order Checked Out </h4>
