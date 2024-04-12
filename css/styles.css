@@ -62,15 +62,25 @@ h3
 td
 {
     border: 3px solid grey;
-    
+}
+
+table
+{
+    width: 100%;
+    list-style-type: none;
+    display:block;
+    text-decoration:double;
+    text-decoration-color: cadetblue;
 }
 
 th
 {
     text-align:center;
+    display: block;
 }
 
 body
 {
     background-image: linear-gradient(to left, gray,green);
+    display: block;
 }
