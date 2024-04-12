@@ -1,91 +1,78 @@
-.navbar{
+.navbar {
     width: 100%;
     list-style-type: none;
-    display:block;
-    text-decoration:double;
+    display: block;
+    text-decoration: double;
     text-decoration-color: cadetblue;
 }
 
-img.headphones
-{
+img.headphones {
     display: block;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.headphones_stock
-{
+.headphones_stock {
     font-family: Arial, Helvetica, sans-serif;
     display: block;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 
 }
 
 /*Show more feature*/
-.show_more_feature
-{
+.show_more_feature {
     overflow: hidden;
 }
 
-ul
-{
-    list-style-type:georgian;
+ul {
+    list-style-type: georgian;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-iframe
-{
-    background-color:lightgrey;
+iframe {
+    background-color: lightgrey;
 }
 
-li
-{
-    display: inline; 
-    color:crimson;
-    
+li {
+    display: inline;
+    color: crimson;
+
 }
 
-h1
-{
-    text-align:center;
-}
-
-h2
-{
-    text-align:center;
-}
-
-h3
-{
+h1 {
     text-align: center;
 }
 
-td
-{
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+td {
     border: 3px solid grey;
 }
 
-table
-{
+table {
     width: 100%;
     list-style-type: none;
-    display:block;
-    text-decoration:double;
+    display: block;
+    text-decoration: double;
     text-decoration-color: cadetblue;
 }
 
-th
-{
-    text-align:center;
+th {
+    text-align: center;
     display: block;
 }
 
-body
-{
-    background-image: linear-gradient(to left, gray,green);
+body {
+    background-image: linear-gradient(to left, gray, green);
     display: block;
 }

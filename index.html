@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>
-Contest
-</title>
-<link rel="icon" type="image/x-icon" href="/images/headphone.ico">
+    <title>
+        Contest
+    </title>
+    <link rel="icon" type="image/x-icon" href="/images/headphone.ico">
 </head>
 
 <script></script>
@@ -19,116 +20,125 @@ Contest
 </h1>
 
 <h3>Today's Date</h3>
-<h3 id="date"><h3>
+<h3 id="date">
+    <h3>
 
-<!--Headphone Image-->
-<img class = "headphones" src = "images/headphone.jpg" alt = "picture" width="60" height="60">
+        <!--Headphone Image-->
+        <img class="headphones" src="images/headphone.jpg" alt="picture" width="60" height="60">
 
-<!--Navigation Bar-->
+        <!--Navigation Bar-->
 
-<div id ="navbar">
+        <div id="navbar">
 
-<!--Using Unlisted Tag-->
-<ul>
-  
-    <button> <!--<a href="index.html">--> <li>Home</li> </button> </a>
-    <button> <!--<a href="checkout.html">--> <li>Checkout</li> </button> </a>
-    <button><li>Products</li> </button>
-    </button>
+            <!--Using Unlisted Tag-->
+            <ul>
 
-</ul>
+                <button> <!--<a href="index.html">-->
+                    <li>Home</li>
+                </button> </a>
+                <button> <!--<a href="checkout.html">-->
+                    <li>Checkout</li>
+                </button> </a>
+                <button>
+                    <li>Products</li>
+                </button>
+                </button>
 
-</div>
+            </ul>
 
-
-
-<body>
-
-    <h2> HeadPhones in Stock</h2>
-
-<!--Headphones Available-->
-
-<div class = "headphones_stock">
-    <table>
-        <tr>
-            <td><b>Brand</b></td>
-            <td><b>Model Number</b></td>
-            <td><b>Wireless</b></td>
-            <td><b>Noise Cancellation</b></td>
-        </tr>
+        </div>
 
 
 
-        <tr>
-            <td><input type = "checkbox" onChange = "displayQuantityAndPrice('quantprice')" id="headphone1" name="headphone1" value ="selection1"> Sony</td>
-            <td>WH-10000XM5</td>
-            <td>Yes</td>
-            <td>Yes</td>
-        </tr>
+        <body>
 
-        <tr>
-            <td><input type = "checkbox" id="headphone2" name="headphone2" value ="selection2">TASCAM</td>
-            <td>TH-02-B</td>
-            <td>No</td>
-            <td>No</td>
-        </tr>
+            <h2> HeadPhones in Stock</h2>
 
-        <tr>
-            <td><input type = "checkbox" id="headphone3" name="headphone3" value ="selection3">Audio Technica</td>
-            <td>AUD ATHAVC400</td>
-            <td>No</td>
-            <td>No</td>
-        </tr>
+            <!--Headphones Available-->
 
-        <tr>
-            <td><input type = "checkbox" id="headphone4" name="headphone4" value ="selection4">Anker</td>
-            <td>A3004Z11</td>
-            <td>Yes</td>
-            <td>Yes</td>
-        </tr>
-
-        <tr>
-            <td><input type = "checkbox" id="headphone5" name="headphone5" value ="selection5">Sony</td>
-            <td>MDRZX110NC/B</td>
-            <td>No</td>
-            <td>Yes</td>
-        </tr>
-
-        <tr>
-            <td><input type = "checkbox" id="headphone6" name="headphone6" value ="selection6">Bose</td>
-            <td>866724 0100</td>
-            <td>Yes</td>
-            <td>Yes</td>
-        </tr>
-    </table>
-
-    <!--Shopping Cart Display-->
-    <h2>Shopping Cart</h2>
-    <iframe width="400" height="300" title="Shopping Cart">Shopping Cart</iframe>
-    
-
-    <h4> Let's Get Your Order Checked Out </h4>
-
-    <form>
-        <label for ="customer_name">First and Last Name: </label><br>
-        <input type="text" id="customer_name" name="customer_name" value="Joe Schmoe"><br>
-        <label for ="address">Address: </label><br>
-        <input type="text" id="address" name="address" value="412 Pittsburgh Street"><br>
-        <label for ="zip">Zip Code: </label><br>
-        <input type="text" id="zip" name="zip" value="15222"><br>
-        <label for ="payment">Payment Method: </label><br>
-        <input type="text" id="payment" name="payment" value="4111 1111 1111 1111"><br>
-
-        <!--Submit Button-->
-        <input type="submit" onclick="orderComplete()" value="Submit">
-
-
-    <!--Link Javascript File-->
-<script src="./javascript/scripting.js"> </script>
+            <div class="headphones_stock">
+                <table>
+                    <tr>
+                        <td><b>Brand</b></td>
+                        <td><b>Model Number</b></td>
+                        <td><b>Wireless</b></td>
+                        <td><b>Noise Cancellation</b></td>
+                    </tr>
 
 
 
-</body>
+                    <tr>
+                        <td><input type="checkbox" onChange="displayQuantityAndPrice('quantprice')" id="headphone1"
+                                name="headphone1" value="selection1"> Sony</td>
+                        <td>WH-10000XM5</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" id="headphone2" name="headphone2" value="selection2">TASCAM</td>
+                        <td>TH-02-B</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" id="headphone3" name="headphone3" value="selection3">Audio Technica
+                        </td>
+                        <td>AUD ATHAVC400</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" id="headphone4" name="headphone4" value="selection4">Anker</td>
+                        <td>A3004Z11</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" id="headphone5" name="headphone5" value="selection5">Sony</td>
+                        <td>MDRZX110NC/B</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" id="headphone6" name="headphone6" value="selection6">Bose</td>
+                        <td>866724 0100</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                </table>
+
+                <!--Shopping Cart Display-->
+                <h2>Shopping Cart</h2>
+                <iframe width="400" height="300" title="Shopping Cart">Shopping Cart</iframe>
+
+
+                <h4> Let's Get Your Order Checked Out </h4>
+
+                <form>
+                    <label for="customer_name">First and Last Name: </label><br>
+                    <input type="text" id="customer_name" name="customer_name" value="Joe Schmoe"><br>
+                    <label for="address">Address: </label><br>
+                    <input type="text" id="address" name="address" value="412 Pittsburgh Street"><br>
+                    <label for="zip">Zip Code: </label><br>
+                    <input type="text" id="zip" name="zip" value="15222"><br>
+                    <label for="payment">Payment Method: </label><br>
+                    <input type="text" id="payment" name="payment" value="4111 1111 1111 1111"><br>
+
+                    <!--Submit Button-->
+                    <input type="submit" onclick="orderComplete()" value="Submit">
+
+
+                    <!--Link Javascript File-->
+                    <script src="./javascript/scripting.js"> </script>
+
+
+
+        </body>
 
 
 
