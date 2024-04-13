@@ -26,6 +26,26 @@ table.stock
     margin-right:auto;
 }
 
+form.checkout
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+button
+{
+    color:blue;
+
+    position: absolute;
+    top: 80%;
+    left: 47%;
+ 
+}
+
+
+
+
 /*Show more feature*/
 .show_more_feature {
     overflow: hidden;
@@ -38,9 +58,6 @@ ul {
     text-align: center;
 }
 
-iframe {
-    background-color: lightgrey;
-}
 
 li {
     display: inline;
