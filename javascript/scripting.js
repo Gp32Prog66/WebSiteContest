@@ -4,8 +4,14 @@ document.getElementById("date").innerHTML = todaysDate;
 
 //Order Completion Form
 function orderComplete() {
+  
     alert("Thank You! Your Order has been submitted");
+
+    var custName = document.getElementById("customer_name");
+    custName.innerHTML = "Thanks your purchase(s) " + custName.value();
 }
+
+
 
 //Checkbox Script
 function headphoneSelection() {
@@ -17,22 +23,18 @@ function headphoneSelection() {
     }
 }
 
-function displayQuantityAndPrice(quantPrice) {
-    var displayBoxes = document.getElementById(quantPrice);
-
-    if (displayBoxes.visibility === "display") {
-        displayBoxes.visibility = "hidden";
-    }
-    else {
-        displayBoxes.visibility = "display";
-    }
-}
+function displayQuantityAndPrice() {
+    var displayBoxes = document.getElementById("quantPrice");
+     text.style.display = "block";
+      }
 
 //Thanking the Customer
-const custName = document.getElementById('checkout_cust');
 
+/*
+const custName = document.getElementById('customer_name');
 function checkout() {
-    checkout_cust.innerHTML = custName.ariaValueMax;
+    var checkout = document.getElementById("customer_name");
+    checkout.innerHTML = "Thanks " + checkout;
+    document.getElementById("display").innerHTML = checkout;
 }
-
-orderComplete.addEventListener('click', custName);
+*/

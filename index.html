@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+
+<!--Tab Info-->
 <head>
     <title>
         Contest
@@ -8,17 +10,17 @@
     <link rel="icon" type="image/x-icon" href="/images/headphone.ico">
 </head>
 
-<script></script>
 
 <!--Link CSS Style-->
 <link rel="stylesheet" type="text/css" href="./css/styles.css">
 
 
-
+<!--Header For Website-->
 <h1>
     Headphones and Earbuds For Sale
 </h1>
 
+<!--Using JavaScript to Display Today's Date-->
 <h3>Today's Date</h3>
 <h3 id="date">
     <h3>
@@ -33,15 +35,11 @@
             <!--Using Unlisted Tag-->
             <ul>
 
-                <button> <!--<a href="index.html">-->
-                    <li>Home</li>
-                </button> </a>
+                
                 <button> <!--<a href="checkout.html">-->
                     <li>Checkout</li>
                 </button> </a>
-                <button>
-                    <li>Products</li>
-                </button>
+               
                 </button>
 
             </ul>
@@ -56,8 +54,8 @@
 
             <!--Headphones Available-->
 
-            <div class="headphones_stock">
-                <table>
+            
+                <table class = "stock">
                     <tr>
                         <td><b>Brand</b></td>
                         <td><b>Model Number</b></td>
@@ -91,7 +89,7 @@
                     </tr>
 
                     <tr>
-                        <td><input type="checkbox" id="headphone4" name="headphone4" value="selection4">Anker</td>
+                        <td><input type="checkbox" id="headphone4" name="headphone4" value="selection4">Anker</td> <div id = "quantprice" style="display: none;">$400</div>
                         <td>A3004Z11</td>
                         <td>Yes</td>
                         <td>Yes</td>
@@ -128,11 +126,27 @@
                     <input type="text" id="zip" name="zip" value="15222"><br>
                     <label for="payment">Payment Method: </label><br>
                     <input type="text" id="payment" name="payment" value="4111 1111 1111 1111"><br>
+                    
+                    
+                    
+
+
+                    <script>
+                        const results = document.getElementById("user_input");
+                        function Display()
+                        {
+                            var text = results.value;
+                            document.getElementById("show").innerHTML = text;
+                        }
+                    </script>
 
                     <!--Submit Button-->
-                    <input type="submit" onclick="orderComplete()" value="Submit">
+                    
 
+                    
+                    
 
+                
                     <!--Link Javascript File-->
                     <script src="./javascript/scripting.js"> </script>
 
